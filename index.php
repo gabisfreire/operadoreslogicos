@@ -8,7 +8,7 @@
         body{
             background-color: lightblue;
            font-family: Arial, sans-serif;
-           
+
             
         }
         </style>
@@ -16,7 +16,7 @@
     <h1>Operador Lógico</h1>
     <form method="post" action="">
         <label for="idade">Digite sua idade: </label>
-        <input type="text" name="idade" id="idade">
+        <input type="number" name="idade" id="idade">
         <input type="submit" value="Verificar">
     </form>
     <?php
